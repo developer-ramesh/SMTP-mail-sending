@@ -3,6 +3,7 @@ Sending mail via SMTP in PHP
 
 
 
+
 require("PHPMailerAutoload.php"); // path to the PHPMailerAutoload.php file.
  
    $mail = new PHPMailer();
