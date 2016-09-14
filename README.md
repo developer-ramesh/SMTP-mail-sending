@@ -38,7 +38,7 @@ require("PHPMailerAutoload.php"); // path to the PHPMailerAutoload.php file.
    
    $mail->WordWrap = 50;
    
-   $mail->AddAttachment("http://unifiedinfotech.co.in/webroot/team1/demo1/picture-6.jpg");         // add attachments
+   $mail->AddAttachment("/demo1/picture-6.jpg");         // add attachments
    
    $mail->AddAttachment("image.jpg", "new.jpg");    // optional name
    
